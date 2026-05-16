@@ -46,6 +46,6 @@ public class Department implements Serializable {
     }
 
     public String toString() {
-        return "Department{Id: " + this.id + ", Nome: " + this.name;
+        return "Department - Id: " + this.id + ", Nome: " + this.name;
     }
 }
