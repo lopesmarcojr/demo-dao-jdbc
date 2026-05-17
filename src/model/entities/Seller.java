@@ -95,6 +95,6 @@ public class Seller implements Serializable {
                 ", email:" + email + '\'' +
                 ", birth date:" + birthDate +
                 ", salary:" + salary +
-                ", department" + department;
+                ", department: " + department;
     }
 }
