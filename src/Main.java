@@ -26,5 +26,10 @@ void main() {
         System.out.println(s);
     }
 
+    System.out.println("\n=== TEST 4: seller inset");
+    Seller s = new Seller(null, "Greg","greg@gmail.com",new Date(), 4000.0, department);
+    sellerDao.insert(s);
+    System.out.println("Inserted! New id = " + s.getId());
+
     }
 
