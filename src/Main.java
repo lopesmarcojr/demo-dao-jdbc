@@ -7,7 +7,9 @@ import model.entities.Seller;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
 
-    SellerDao sellerDao = DaoFactory.createSellerDao();
+
+
+    /*SellerDao sellerDao = DaoFactory.createSellerDao();
 
     System.out.println("=== TEST 1: seller findById ===");
 
@@ -39,7 +41,7 @@ void main() {
 
     System.out.println("\n=== TEST 6: Seller delete====");
     sellerDao.deleteById(3);
-    System.out.println("Delete completed");
+    System.out.println("Delete completed");*/
 
     }
 
